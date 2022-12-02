@@ -10,13 +10,19 @@
         "packages/*"
     ],
     "scripts": {
-        "lint": "eslint",
-        "lint:fix": "yarn lint -- --fix"
+        "lint": "npx eslint src test",
+        "lint:fix": "npm run lint -- --fix",
+        "prettier": "npx prettier src test --check",
+        "prettier:fix": "npm run prettier -- --write"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.3.0",
         "@commitlint/config-conventional": "^17.3.0",
-        "husky": "^8.0.2"
+        "eslint": "^8.28.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "husky": "^8.0.2",
+        "prettier": "^2.8.0"
     },
     "keywords": [
         "moaxe",
@@ -27,5 +33,7 @@
         "a11y",
         "accessibility",
         "typescript"
-    ]
+    ],
+    "dependencies": {
+    }
 }
