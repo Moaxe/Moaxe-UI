@@ -10,10 +10,11 @@
         "packages/*"
     ],
     "scripts": {
-        "lint": "npx eslint src test",
-        "lint:fix": "npm run lint -- --fix",
-        "prettier": "npx prettier src test --check",
-        "prettier:fix": "npm run prettier -- --write"
+        "lint": "eslint --max-warnings 0 --cache",
+        "lint:fix": "yarn lint --fix",
+        "postinstall": "husky install",
+        "prettier": "prettier --check '**/*.{ts,tsx}'",
+        "prettier:fix": "yarn prettier --write"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.3.0",
@@ -22,6 +23,7 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "husky": "^8.0.2",
+        "lint-staged": "^13.0.4",
         "prettier": "^2.8.0"
     },
     "keywords": [
@@ -34,6 +36,11 @@
         "accessibility",
         "typescript"
     ],
-    "dependencies": {
+    "dependencies": {},
+    "lint-staged": {
+        "*.{ts, tsx, json, css}": [
+            "yarn lint:fix",
+            "yarn prettier:fix"
+        ]
     }
 }

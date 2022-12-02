@@ -1,3 +1,3 @@
 export type WithTestId = {
-    ["data-testid"]?: string;
-}
+    ['data-testid']?: string;
+};
