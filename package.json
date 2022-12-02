@@ -1,0 +1,27 @@
+{
+    "name": "moaxe",
+    "private": true,
+    "version": "0.0.0",
+    "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
+    "license": "UNLICENSED",
+    "packageManager": "yarn@3.1.1",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "devDependencies": {},
+    "lint-staged": {
+        "*.{ts, tsx}": [
+            "yarn lint:fix",
+            "yarn prettier:fix"
+        ]
+    },
+    "dependencies": {
+        "@commitlint/cli": "^17.3.0",
+        "@commitlint/config-conventional": "^17.3.0",
+        "husky": "^8.0.2",
+        "lint-staged": "^13.0.4"
+    }
+}
