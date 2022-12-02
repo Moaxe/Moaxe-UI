@@ -1,0 +1,25 @@
+{
+    "name": "moaxe-ui",
+    "version": "0.0.1",
+    "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
+    "license": "MIT",
+    "repository": "git@github.com:Moaxe/Moaxe-UI.git",
+    "scripts": {},
+    "devDependencies": {
+        "@types/react": "^18.0.26",
+        "@types/react-dom": "^18.0.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^4.9.3"
+    },
+    "keywords": [
+        "moaxe",
+        "design system",
+        "ui",
+        "ui library",
+        "react",
+        "a11y",
+        "accessibility",
+        "typescript"
+    ]
+}
