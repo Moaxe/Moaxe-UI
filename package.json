@@ -15,5 +15,15 @@
         "@commitlint/cli": "^17.3.0",
         "@commitlint/config-conventional": "^17.3.0",
         "husky": "^8.0.2"
-    }
+    },
+    "keywords": [
+        "moaxe",
+        "design system",
+        "ui",
+        "ui library",
+        "react",
+        "a11y",
+        "accessibility",
+        "typescript"
+    ]
 }
