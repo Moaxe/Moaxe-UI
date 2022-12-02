@@ -9,9 +9,7 @@
     "workspaces": [
         "packages/*"
     ],
-    "scripts": {
-        "prepare": "husky install"
-    },
+    "scripts": {},
     "devDependencies": {},
     "lint-staged": {
         "*.{ts, tsx}": [
