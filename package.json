@@ -23,6 +23,7 @@
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
         "husky": "^8.0.2",
+        "lint-staged": "^13.0.4",
         "prettier": "^2.8.0"
     },
     "keywords": [
@@ -35,6 +36,11 @@
         "accessibility",
         "typescript"
     ],
-    "dependencies": {
+    "dependencies": {},
+    "lint-staged": {
+        "*.{ts, tsx, json, css}": [
+            "yarn lint:fix",
+            "yarn prettier:fix"
+        ]
     }
 }
