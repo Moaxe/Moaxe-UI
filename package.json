@@ -10,10 +10,11 @@
         "packages/*"
     ],
     "scripts": {
-        "lint": "npx eslint src test",
-        "lint:fix": "npm run lint -- --fix",
-        "prettier": "npx prettier src test --check",
-        "prettier:fix": "npm run prettier -- --write"
+        "lint": "eslint --max-warnings 0 --cache",
+        "lint:fix": "yarn lint --fix",
+        "postinstall": "husky install",
+        "prettier": "prettier --check '**/*.{ts,tsx}'",
+        "prettier:fix": "yarn prettier --write"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.3.0",
