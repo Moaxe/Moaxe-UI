@@ -9,9 +9,11 @@
     "workspaces": [
         "packages/*"
     ],
-    "scripts": {},
-    "devDependencies": {},
-    "dependencies": {
+    "scripts": {
+        "lint": "eslint",
+        "lint:fix": "yarn lint -- --fix"
+    },
+    "devDependencies": {
         "@commitlint/cli": "^17.3.0",
         "@commitlint/config-conventional": "^17.3.0",
         "husky": "^8.0.2"

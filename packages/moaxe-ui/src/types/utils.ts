@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 
 export type WithChildren = {
-    children: ReactNode;
+    children: ReactNode
 }
 
 export type WithTestId = {
