@@ -1,0 +1,15 @@
+{
+    "name": "@moaxe/css",
+    "version": "0.0.1",
+    "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
+    "license": "MIT",
+    "repository": "git@github.com:Moaxe/Moaxe-UI.git",
+    "scripts": {},
+    "devDependencies": {},
+    "keywords": [
+        "moaxe",
+        "design system",
+        "ui",
+        "css"
+    ]
+}
