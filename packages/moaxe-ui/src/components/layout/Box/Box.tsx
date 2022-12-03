@@ -1,14 +1,29 @@
-import { ElementType, PropsWithChildren } from 'react';
-import { WithTestId } from '../../../types';
+import { ForwardedRef } from 'react';
+import { forwardRefWithAs, WithAs, WithTestId } from '../../../types';
 
-export interface BoxProps extends PropsWithChildren, WithTestId {
-    as?: ElementType;
-}
+export type BoxProps = WithTestId;
 
-export function Box({ as: Tag = 'div', children, dataTestId }: BoxProps) {
-    return (
-        <Tag data-moaxe-id="box" data-testid={dataTestId}>
-            {children}
-        </Tag>
-    );
-}
+export const Box = forwardRefWithAs<BoxProps, 'div'>(
+    (
+        props: WithAs<BoxProps, 'div'>,
+        ref: ForwardedRef<HTMLDivElement>
+    ): JSX.Element => {
+        const {
+            as: Box = 'div',
+            children,
+            dataTestId,
+            ...HTMLElementAttributes
+        } = props;
+
+        return (
+            <Box
+                data-moaxe-id="box"
+                data-test-id={dataTestId}
+                ref={ref}
+                {...HTMLElementAttributes}
+            >
+                {children}
+            </Box>
+        );
+    }
+);
