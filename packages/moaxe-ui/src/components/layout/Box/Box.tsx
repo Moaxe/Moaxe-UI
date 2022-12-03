@@ -1,7 +1,7 @@
 import { ForwardedRef } from 'react';
 import { forwardRefWithAs, WithAs, WithTestId } from '../../../types';
 
-export type BoxProps = WithTestId;
+type BoxProps = WithTestId;
 
 export const Box = forwardRefWithAs<BoxProps, 'div'>(
     (
