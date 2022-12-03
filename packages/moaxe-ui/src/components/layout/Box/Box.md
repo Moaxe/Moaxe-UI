@@ -19,6 +19,11 @@ return (
 
 ## Props
 
+| Props      | Required | Type   | Default | Description                                   |
+| ---------- | -------- | ------ | ------- | --------------------------------------------- |
+| as         | -        | string | div     | Adjust the HTML element tag that is rendered. |
+| dataTestId | -        | string | -       | Pass an id to the `[data-test-id]` attribute. |
+
 ## HTML Semantics
 
 While the `Box` renders as a `div` by default, be mindful to use a more semantically appropriate HTML tag.
