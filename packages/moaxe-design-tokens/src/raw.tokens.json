@@ -1,0 +1,320 @@
+{
+  "global": {
+    "100": {
+      "value": "100%",
+      "type": "lineHeights",
+      "description": "A 100% line-height value."
+    },
+    "120": {
+      "value": "120%",
+      "type": "lineHeights",
+      "description": "A 120% line-height value."
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights",
+      "description": "A 150% line-height value."
+    },
+    "200": {
+      "value": "200%",
+      "type": "lineHeights",
+      "description": "A 200% line-height value."
+    },
+    "Space": {
+      "0": {
+        "value": "0",
+        "type": "spacing",
+        "description": "A zero-value spacing unit."
+      },
+      "25": {
+        "value": "{Space.Unit} * 0.25",
+        "type": "spacing",
+        "description": "A spacing unit that is a quarter (0.25%) of the base unit."
+      },
+      "50": {
+        "value": "{Space.Unit} * 0.5",
+        "type": "spacing",
+        "description": "A spacing value that is half (0.5%) of the base unit."
+      },
+      "100": {
+        "value": "{Space.Unit} * 1",
+        "type": "spacing",
+        "description": "A spacing value that is 100% of the base unit."
+      },
+      "150": {
+        "value": "{Space.Unit} * 1.5",
+        "type": "spacing",
+        "description": "A spacing value that is 150% of the base unit."
+      },
+      "200": {
+        "value": "{Space.Unit} * 2",
+        "type": "spacing",
+        "description": "A spacing value that is 200% of the base unit."
+      },
+      "300": {
+        "value": "{Space.Unit} * 3",
+        "type": "spacing",
+        "description": "A spacing value that is 300% of the base unit."
+      },
+      "400": {
+        "value": "{Space.Unit} * 4",
+        "type": "spacing",
+        "description": "A spacing value that is 400% of the base unit."
+      },
+      "600": {
+        "value": "{Space.Unit} * 6",
+        "type": "spacing",
+        "description": "A spacing value that is 600% of the base unit."
+      },
+      "800": {
+        "value": "{Space.Unit} * 8",
+        "type": "spacing",
+        "description": "A spacing value that is 800% of the base unit."
+      },
+      "Unit": {
+        "value": "8",
+        "type": "spacing",
+        "description": "The base spacing unit for the Moaxe Design System."
+      }
+    },
+    "Radius": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius",
+        "description": "A zero-value border-radius for sharp edges."
+      },
+      "50": {
+        "value": "{Radius.Unit} * 0.5",
+        "type": "borderRadius",
+        "description": "A border-radius value that is 50% of the base unit."
+      },
+      "100": {
+        "value": "{Radius.Unit} * 1",
+        "type": "borderRadius",
+        "description": "A border-radius value that is 100% of the base unit."
+      },
+      "200": {
+        "value": "{Radius.Unit} * 2",
+        "type": "borderRadius",
+        "description": "A border-radius value that is 200% of the base unit."
+      },
+      "Unit": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "The base border-radius value."
+      },
+      "Pill": {
+        "value": "999",
+        "type": "borderRadius",
+        "description": "A high-value border-radius for creating pill-shaped elements."
+      },
+      "Circle": {
+        "value": "50%",
+        "type": "borderRadius",
+        "description": "A 50% border-radius for creating circular elements."
+      }
+    },
+    "Font": {
+      "Weight": {
+        "Thin": {
+          "value": "100",
+          "type": "fontWeights",
+          "description": "A 100-value font weight."
+        },
+        "Light-Extra": {
+          "value": "200",
+          "type": "fontWeights",
+          "description": "A 200-value font weight."
+        },
+        "Light": {
+          "value": "300",
+          "type": "fontWeights",
+          "description": "A 300-value font weight."
+        },
+        "Regular": {
+          "value": "400",
+          "type": "fontWeights",
+          "description": "A 400-value font weight."
+        },
+        "Medium": {
+          "value": "500",
+          "type": "fontWeights",
+          "description": "A 500-value font weight."
+        },
+        "Bold-Semi": {
+          "value": "600",
+          "type": "fontWeights",
+          "description": "A 600-value font weight."
+        },
+        "Bold": {
+          "value": "700",
+          "type": "fontWeights",
+          "description": "A 700-value font weight."
+        },
+        "Bold-Extra": {
+          "value": "800",
+          "type": "fontWeights",
+          "description": "A 800-value font weight."
+        },
+        "Heavy": {
+          "value": "900",
+          "type": "fontWeights",
+          "description": "A 900-value font weight."
+        }
+      },
+      "Size": {
+        "Unit": {
+          "value": "16",
+          "type": "fontSizes",
+          "description": "The base unit font size for all text content."
+        },
+        "Fluid": {
+          "80": {
+            "Min": {
+              "value": "13.33",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 80% of the base unit."
+            },
+            "Max": {
+              "value": "14.4",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 80% of the base unit."
+            }
+          },
+          "100": {
+            "Min": {
+              "value": "16",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 100% of the base unit."
+            },
+            "Max": {
+              "value": "18",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 100% of the base unit."
+            }
+          },
+          "125": {
+            "Min": {
+              "value": "19.2",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 125% of the base unit."
+            },
+            "Max": {
+              "value": "22.5",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 125% of the base unit."
+            }
+          },
+          "150": {
+            "Min": {
+              "value": "23.04",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 150% of the base unit."
+            },
+            "Max": {
+              "value": "28.13",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 150% of the base unit."
+            }
+          },
+          "200": {
+            "Min": {
+              "value": "27.65",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 200% of the base unit."
+            },
+            "Max": {
+              "value": "35.16",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 200% of the base unit."
+            }
+          },
+          "250": {
+            "Min": {
+              "value": "33.18",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 250% of the base unit."
+            },
+            "Max": {
+              "value": "43.95",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 250% of the base unit."
+            }
+          },
+          "300": {
+            "Min": {
+              "value": "39.81",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 300% of the base unit."
+            },
+            "Max": {
+              "value": "54.93",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 300% of the base unit."
+            }
+          },
+          "375": {
+            "Min": {
+              "value": "47.78",
+              "type": "fontSizes",
+              "description": "The minimum fluid text size at 375% of the base unit."
+            },
+            "Max": {
+              "value": "68.66",
+              "type": "fontSizes",
+              "description": "The maximum fluid text size at 375% of the base unit."
+            }
+          }
+        },
+        "Static": {
+          "80": {
+            "value": "{Font.Size.Unit} * 0.8",
+            "type": "fontSizes",
+            "description": "A static font size, 80% of the base unit."
+          },
+          "100": {
+            "value": "{Font.Size.Unit} * 1",
+            "type": "fontSizes",
+            "description": "A static font size, 100% of the base unit."
+          },
+          "125": {
+            "value": "{Font.Size.Unit} * 1.25",
+            "type": "fontSizes",
+            "description": "A static font size, 125% of the base unit."
+          },
+          "150": {
+            "value": "{Font.Size.Unit} * 1.5",
+            "type": "fontSizes",
+            "description": "A static font size, 150% of the base unit."
+          },
+          "200": {
+            "value": "{Font.Size.Unit} * 2",
+            "type": "fontSizes",
+            "description": "A static font size, 200% of the base unit."
+          },
+          "250": {
+            "value": "{Font.Size.Unit} * 2.5",
+            "type": "fontSizes",
+            "description": "A static font size, 250% of the base unit."
+          },
+          "300": {
+            "value": "{Font.Size.Unit} * 3",
+            "type": "fontSizes",
+            "description": "A static font size, 300% of the base unit."
+          },
+          "375": {
+            "value": "{Font.Size.Unit} * 3.75",
+            "type": "fontSizes",
+            "description": "A static font size, 375% of the base unit."
+          }
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
