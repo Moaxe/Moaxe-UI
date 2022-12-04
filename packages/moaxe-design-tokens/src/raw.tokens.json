@@ -1,25 +1,5 @@
 {
   "global": {
-    "100": {
-      "value": "100%",
-      "type": "lineHeights",
-      "description": "A 100% line-height value."
-    },
-    "120": {
-      "value": "120%",
-      "type": "lineHeights",
-      "description": "A 120% line-height value."
-    },
-    "150": {
-      "value": "150%",
-      "type": "lineHeights",
-      "description": "A 150% line-height value."
-    },
-    "200": {
-      "value": "200%",
-      "type": "lineHeights",
-      "description": "A 200% line-height value."
-    },
     "Space": {
       "0": {
         "value": "0",
@@ -308,6 +288,28 @@
             "description": "A static font size, 375% of the base unit."
           }
         }
+      }
+    },
+    "LineHeight": {
+      "100": {
+        "value": "100%",
+        "type": "lineHeights",
+        "description": "A 100% line-height value."
+      },
+      "120": {
+        "value": "120%",
+        "type": "lineHeights",
+        "description": "A 120% line-height value."
+      },
+      "150": {
+        "value": "150%",
+        "type": "lineHeights",
+        "description": "A 150% line-height value."
+      },
+      "200": {
+        "value": "200%",
+        "type": "lineHeights",
+        "description": "A 200% line-height value."
       }
     }
   },
