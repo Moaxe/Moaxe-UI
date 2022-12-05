@@ -7,54 +7,54 @@
         "description": "A zero-value spacing unit."
       },
       "25": {
-        "value": "{Space.Unit} * 0.25",
+        "value": "{Space.Base} * 0.25",
         "type": "spacing",
         "description": "A spacing unit that is a quarter (0.25%) of the base unit."
       },
       "50": {
-        "value": "{Space.Unit} * 0.5",
+        "value": "{Space.Base} * 0.5",
         "type": "spacing",
         "description": "A spacing value that is half (0.5%) of the base unit."
       },
       "100": {
-        "value": "{Space.Unit} * 1",
+        "value": "{Space.Base} * 1",
         "type": "spacing",
         "description": "A spacing value that is 100% of the base unit."
       },
       "150": {
-        "value": "{Space.Unit} * 1.5",
+        "value": "{Space.Base} * 1.5",
         "type": "spacing",
         "description": "A spacing value that is 150% of the base unit."
       },
       "200": {
-        "value": "{Space.Unit} * 2",
+        "value": "{Space.Base} * 2",
         "type": "spacing",
         "description": "A spacing value that is 200% of the base unit."
       },
       "300": {
-        "value": "{Space.Unit} * 3",
+        "value": "{Space.Base} * 3",
         "type": "spacing",
         "description": "A spacing value that is 300% of the base unit."
       },
       "400": {
-        "value": "{Space.Unit} * 4",
+        "value": "{Space.Base} * 4",
         "type": "spacing",
         "description": "A spacing value that is 400% of the base unit."
       },
       "600": {
-        "value": "{Space.Unit} * 6",
+        "value": "{Space.Base} * 6",
         "type": "spacing",
         "description": "A spacing value that is 600% of the base unit."
       },
       "800": {
-        "value": "{Space.Unit} * 8",
+        "value": "{Space.Base} * 8",
         "type": "spacing",
         "description": "A spacing value that is 800% of the base unit."
       },
-      "Unit": {
+      "Base": {
         "value": "8",
         "type": "spacing",
-        "description": "The base spacing unit for the Moaxe Design System."
+        "description": "The base spacing value for the Moaxe Design System."
       }
     },
     "Radius": {
@@ -143,10 +143,10 @@
         }
       },
       "Size": {
-        "Unit": {
+        "Base": {
           "value": "16",
           "type": "fontSizes",
-          "description": "The base unit font size for all text content."
+          "description": "The base font size value for all text content."
         },
         "Fluid": {
           "80": {
@@ -248,42 +248,42 @@
         },
         "Static": {
           "80": {
-            "value": "{Font.Size.Unit} * 0.8",
+            "value": "{Font.Size.Base} * 0.8",
             "type": "fontSizes",
             "description": "A static font size, 80% of the base unit."
           },
           "100": {
-            "value": "{Font.Size.Unit} * 1",
+            "value": "{Font.Size.Base} * 1",
             "type": "fontSizes",
             "description": "A static font size, 100% of the base unit."
           },
           "125": {
-            "value": "{Font.Size.Unit} * 1.25",
+            "value": "{Font.Size.Base} * 1.25",
             "type": "fontSizes",
             "description": "A static font size, 125% of the base unit."
           },
           "150": {
-            "value": "{Font.Size.Unit} * 1.5",
+            "value": "{Font.Size.Base} * 1.5",
             "type": "fontSizes",
             "description": "A static font size, 150% of the base unit."
           },
           "200": {
-            "value": "{Font.Size.Unit} * 2",
+            "value": "{Font.Size.Base} * 2",
             "type": "fontSizes",
             "description": "A static font size, 200% of the base unit."
           },
           "250": {
-            "value": "{Font.Size.Unit} * 2.5",
+            "value": "{Font.Size.Base} * 2.5",
             "type": "fontSizes",
             "description": "A static font size, 250% of the base unit."
           },
           "300": {
-            "value": "{Font.Size.Unit} * 3",
+            "value": "{Font.Size.Base} * 3",
             "type": "fontSizes",
             "description": "A static font size, 300% of the base unit."
           },
           "375": {
-            "value": "{Font.Size.Unit} * 3.75",
+            "value": "{Font.Size.Base} * 3.75",
             "type": "fontSizes",
             "description": "A static font size, 375% of the base unit."
           }
