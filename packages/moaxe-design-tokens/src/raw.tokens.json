@@ -12,7 +12,7 @@
           "type": "spacing"
         },
         "Fluid": {
-          "value": "{Space.Base} * 0.25 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 0.25 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -23,7 +23,7 @@
           "description": "A spacing value that is half (0.5%) of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 0.5 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 0.5 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -34,7 +34,7 @@
           "description": "A spacing value that is 100% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 1 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 1 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -45,7 +45,7 @@
           "description": "A spacing value that is 150% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 1.5 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 1.5 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -56,7 +56,7 @@
           "description": "A spacing value that is 200% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 2 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 2 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -67,7 +67,7 @@
           "description": "A spacing value that is 300% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 3 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 3 / {Fluid.Font.Size.Base}",
           "type": "spacing",
           "description": "A spacing value that is 300% of the base unit."
         }
@@ -79,7 +79,7 @@
           "description": "A spacing value that is 400% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 4 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 4 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -90,7 +90,7 @@
           "description": "A spacing value that is 600% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 6 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 6 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -101,7 +101,7 @@
           "description": "A spacing value that is 800% of the base unit."
         },
         "Fluid": {
-          "value": "{Space.Base} * 8 / {Other.Fluid.Font.Size.Base}",
+          "value": "{Space.Base} * 8 / {Fluid.Font.Size.Base}",
           "type": "spacing"
         }
       },
@@ -194,103 +194,90 @@
       "Size": {
         "80": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 0.8",
+            "value": "{Fluid.Font.Size.Base} * 0.8",
             "type": "fontSizes",
             "description": "A static font size, 80% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 0.8",
+            "value": "{Fluid.Font.Size.Base} * 0.8",
             "type": "fontSizes"
           }
         },
         "100": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1",
+            "value": "{Fluid.Font.Size.Base} * 1",
             "type": "fontSizes",
             "description": "A static font size, 100% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1",
+            "value": "{Fluid.Font.Size.Base} * 1",
             "type": "fontSizes"
           }
         },
         "125": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1.25",
+            "value": "{Fluid.Font.Size.Base} * 1.25",
             "type": "fontSizes",
             "description": "A static font size, 125% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1.25",
+            "value": "{Fluid.Font.Size.Base} * 1.25",
             "type": "fontSizes"
           }
         },
         "150": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1.5",
+            "value": "{Fluid.Font.Size.Base} * 1.5",
             "type": "fontSizes",
             "description": "A static font size, 150% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 1.5",
+            "value": "{Fluid.Font.Size.Base} * 1.5",
             "type": "fontSizes"
           }
         },
         "200": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 2",
+            "value": "{Fluid.Font.Size.Base} * 2",
             "type": "fontSizes",
             "description": "A static font size, 200% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 2",
+            "value": "{Fluid.Font.Size.Base} * 2",
             "type": "fontSizes"
           }
         },
         "250": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 2.5",
+            "value": "{Fluid.Font.Size.Base} * 2.5",
             "type": "fontSizes",
             "description": "A static font size, 250% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 2.5",
+            "value": "{Fluid.Font.Size.Base} * 2.5",
             "type": "fontSizes"
           }
         },
         "300": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 3",
+            "value": "{Fluid.Font.Size.Base} * 3",
             "type": "fontSizes",
             "description": "A static font size, 300% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 3",
+            "value": "{Fluid.Font.Size.Base} * 3",
             "type": "fontSizes"
           }
         },
         "375": {
           "Static": {
-            "value": "{Other.Fluid.Font.Size.Base} * 3.75",
+            "value": "{Fluid.Font.Size.Base} * 3.75",
             "type": "fontSizes",
             "description": "A static font size, 375% of the base unit."
           },
           "Fluid": {
-            "value": "{Other.Fluid.Font.Size.Base} * 3.75",
+            "value": "{Fluid.Font.Size.Base} * 3.75",
             "type": "fontSizes"
-          }
-        }
-      }
-    },
-    "Other": {
-      "Fluid": {
-        "Font": {
-          "Size": {
-            "Base": {
-              "value": "16",
-              "type": "fontSizes",
-              "description": "The base font size value for all text content."
-            }
           }
         }
       }
@@ -322,7 +309,7 @@
         "Size": {
           "80": {
             "Max": {
-              "value": "14.4 / {Other.Fluid.Font.Size.Base}",
+              "value": "14.4 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -336,7 +323,7 @@
           },
           "100": {
             "Max": {
-              "value": "18 / {Other.Fluid.Font.Size.Base}",
+              "value": "18 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -350,7 +337,7 @@
           },
           "125": {
             "Max": {
-              "value": "22.5 / {Other.Fluid.Font.Size.Base}",
+              "value": "22.5 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -364,7 +351,7 @@
           },
           "150": {
             "Max": {
-              "value": "28.13 / {Other.Fluid.Font.Size.Base}",
+              "value": "28.13 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -378,7 +365,7 @@
           },
           "200": {
             "Max": {
-              "value": "35.16 / {Other.Fluid.Font.Size.Base}",
+              "value": "35.16 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -392,7 +379,7 @@
           },
           "250": {
             "Max": {
-              "value": "43.95 / {Other.Fluid.Font.Size.Base}",
+              "value": "43.95 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -406,7 +393,7 @@
           },
           "300": {
             "Max": {
-              "value": "54.93 / {Other.Fluid.Font.Size.Base}",
+              "value": "54.93 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -420,7 +407,7 @@
           },
           "375": {
             "Max": {
-              "value": "68.66 / {Other.Fluid.Font.Size.Base}",
+              "value": "68.66 / {Fluid.Font.Size.Base}",
               "type": "other"
             },
             "Clamp": {
@@ -431,13 +418,17 @@
               "value": "2.27",
               "type": "other"
             }
+          },
+          "Base": {
+            "value": "16",
+            "type": "other"
           }
         }
       },
       "Space": {
         "25": {
           "Max": {
-            "value": "3 / {Other.Fluid.Font.Size.Base}",
+            "value": "3 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -451,7 +442,7 @@
         },
         "50": {
           "Max": {
-            "value": "5 / {Other.Fluid.Font.Size.Base}",
+            "value": "5 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -465,7 +456,7 @@
         },
         "100": {
           "Max": {
-            "value": "10 / {Other.Fluid.Font.Size.Base}",
+            "value": "10 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -479,7 +470,7 @@
         },
         "150": {
           "Max": {
-            "value": "15 / {Other.Fluid.Font.Size.Base}",
+            "value": "15 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -493,7 +484,7 @@
         },
         "200": {
           "Max": {
-            "value": "20 / {Other.Fluid.Font.Size.Base}",
+            "value": "20 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -507,7 +498,7 @@
         },
         "300": {
           "Max": {
-            "value": "30 / {Other.Fluid.Font.Size.Base}",
+            "value": "30 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -521,7 +512,7 @@
         },
         "400": {
           "Max": {
-            "value": "40 / {Other.Fluid.Font.Size.Base}",
+            "value": "40 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -535,7 +526,7 @@
         },
         "600": {
           "Max": {
-            "value": "60 / {Other.Fluid.Font.Size.Base}",
+            "value": "60 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
@@ -549,7 +540,7 @@
         },
         "800": {
           "Max": {
-            "value": "80 / {Other.Fluid.Font.Size.Base}",
+            "value": "80 / {Fluid.Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
