@@ -104,21 +104,21 @@
         "description": "A zero-value border-radius for sharp edges."
       },
       "50": {
-        "value": "{Radius.Unit} * 0.5",
+        "value": "{Radius.Base} * 0.5",
         "type": "borderRadius",
         "description": "A border-radius value that is 50% of the base unit."
       },
       "100": {
-        "value": "{Radius.Unit} * 1",
+        "value": "{Radius.Base} * 1",
         "type": "borderRadius",
         "description": "A border-radius value that is 100% of the base unit."
       },
       "200": {
-        "value": "{Radius.Unit} * 2",
+        "value": "{Radius.Base} * 2",
         "type": "borderRadius",
         "description": "A border-radius value that is 200% of the base unit."
       },
-      "Unit": {
+      "Base": {
         "value": "4",
         "type": "borderRadius",
         "description": "The base border-radius value."
