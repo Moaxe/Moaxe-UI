@@ -6,55 +6,95 @@
         "type": "spacing",
         "description": "A zero-value spacing unit."
       },
-      "25": {
-        "value": "{Space.Base} * 0.25",
-        "type": "spacing",
-        "description": "A spacing unit that is a quarter (0.25%) of the base unit."
-      },
-      "50": {
-        "value": "{Space.Base} * 0.5",
-        "type": "spacing",
-        "description": "A spacing value that is half (0.5%) of the base unit."
-      },
-      "100": {
-        "value": "{Space.Base} * 1",
-        "type": "spacing",
-        "description": "A spacing value that is 100% of the base unit."
-      },
-      "150": {
-        "value": "{Space.Base} * 1.5",
-        "type": "spacing",
-        "description": "A spacing value that is 150% of the base unit."
-      },
-      "200": {
-        "value": "{Space.Base} * 2",
-        "type": "spacing",
-        "description": "A spacing value that is 200% of the base unit."
-      },
-      "300": {
-        "value": "{Space.Base} * 3",
-        "type": "spacing",
-        "description": "A spacing value that is 300% of the base unit."
-      },
-      "400": {
-        "value": "{Space.Base} * 4",
-        "type": "spacing",
-        "description": "A spacing value that is 400% of the base unit."
-      },
-      "600": {
-        "value": "{Space.Base} * 6",
-        "type": "spacing",
-        "description": "A spacing value that is 600% of the base unit."
-      },
-      "800": {
-        "value": "{Space.Base} * 8",
-        "type": "spacing",
-        "description": "A spacing value that is 800% of the base unit."
-      },
       "Base": {
         "value": "8",
         "type": "spacing",
         "description": "The base spacing value for the Moaxe Design System."
+      },
+      "Static": {
+        "25": {
+          "value": "{Space.Base} * 0.25",
+          "type": "spacing",
+          "description": "A spacing unit that is a quarter (0.25%) of the base unit."
+        },
+        "50": {
+          "value": "{Space.Base} * 0.5",
+          "type": "spacing",
+          "description": "A spacing value that is half (0.5%) of the base unit."
+        },
+        "100": {
+          "value": "{Space.Base} * 1",
+          "type": "spacing",
+          "description": "A spacing value that is 100% of the base unit."
+        },
+        "150": {
+          "value": "{Space.Base} * 1.5",
+          "type": "spacing",
+          "description": "A spacing value that is 150% of the base unit."
+        },
+        "200": {
+          "value": "{Space.Base} * 2",
+          "type": "spacing",
+          "description": "A spacing value that is 200% of the base unit."
+        },
+        "300": {
+          "value": "{Space.Base} * 3",
+          "type": "spacing",
+          "description": "A spacing value that is 300% of the base unit."
+        },
+        "400": {
+          "value": "{Space.Base} * 4",
+          "type": "spacing",
+          "description": "A spacing value that is 400% of the base unit."
+        },
+        "600": {
+          "value": "{Space.Base} * 6",
+          "type": "spacing",
+          "description": "A spacing value that is 600% of the base unit."
+        },
+        "800": {
+          "value": "{Space.Base} * 8",
+          "type": "spacing",
+          "description": "A spacing value that is 800% of the base unit."
+        }
+      },
+      "Fluid": {
+        "25": {
+          "value": "{Space.Base} * 0.25 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "50": {
+          "value": "{Space.Base} * 0.5 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "100": {
+          "value": "{Space.Base} * 1 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "150": {
+          "value": "{Space.Base} * 1.5 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "200": {
+          "value": "{Space.Base} * 2 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "300": {
+          "value": "{Space.Base} * 3 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "400": {
+          "value": "{Space.Base} * 4 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "600": {
+          "value": "{Space.Base} * 6 / {Font.Size.Base}",
+          "type": "spacing"
+        },
+        "800": {
+          "value": "{Space.Base} * 8 / {Font.Size.Base}",
+          "type": "spacing"
+        }
       }
     },
     "Radius": {
@@ -391,6 +431,134 @@
           },
           "VW": {
             "value": "2.27",
+            "type": "other"
+          }
+        }
+      },
+      "Space": {
+        "25": {
+          "Max": {
+            "value": "3 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "0.1",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.11",
+            "type": "other"
+          }
+        },
+        "50": {
+          "Max": {
+            "value": "5 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "0.23",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.11",
+            "type": "other"
+          }
+        },
+        "100": {
+          "Max": {
+            "value": "10 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "0.46",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.22",
+            "type": "other"
+          }
+        },
+        "150": {
+          "Max": {
+            "value": "15 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "0.68",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.33",
+            "type": "other"
+          }
+        },
+        "200": {
+          "Max": {
+            "value": "20 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "0.91",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.43",
+            "type": "other"
+          }
+        },
+        "300": {
+          "Max": {
+            "value": "30 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "1.37",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.65",
+            "type": "other"
+          }
+        },
+        "400": {
+          "Max": {
+            "value": "40 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "1.83",
+            "type": "other"
+          },
+          "VW": {
+            "value": "0.87",
+            "type": "other"
+          }
+        },
+        "600": {
+          "Max": {
+            "value": "60 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "2.74",
+            "type": "other"
+          },
+          "VW": {
+            "value": "1.3",
+            "type": "other"
+          }
+        },
+        "800": {
+          "Max": {
+            "value": "80 / {Font.Size.Base}",
+            "type": "other"
+          },
+          "Clamp": {
+            "value": "3.65",
+            "type": "other"
+          },
+          "VW": {
+            "value": "1.74",
             "type": "other"
           }
         }
