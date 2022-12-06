@@ -232,35 +232,35 @@
         },
         "Fluid": {
           "80": {
-            "value": "{Fluid.Font.80.VW}",
+            "value": "{Font.Size.Base} * 0.8",
             "type": "fontSizes"
           },
           "100": {
-            "value": "{Fluid.Font.100.VW}",
+            "value": "{Font.Size.Base} * 1",
             "type": "fontSizes"
           },
           "125": {
-            "value": "{Fluid.Font.125.VW}",
+            "value": "{Font.Size.Base} * 1.25",
             "type": "fontSizes"
           },
           "150": {
-            "value": "{Fluid.Font.150.VW}",
+            "value": "{Font.Size.Base} * 1.5",
             "type": "fontSizes"
           },
           "200": {
-            "value": "{Fluid.Font.200.VW}",
+            "value": "{Font.Size.Base} * 2",
             "type": "fontSizes"
           },
           "250": {
-            "value": "{Fluid.Font.250.VW}",
+            "value": "{Font.Size.Base} * 2.5",
             "type": "fontSizes"
           },
           "300": {
-            "value": "{Fluid.Font.300.VW}",
+            "value": "{Font.Size.Base} * 3",
             "type": "fontSizes"
           },
           "375": {
-            "value": "{Fluid.Font.375.VW}",
+            "value": "{Font.Size.Base} * 3.75",
             "type": "fontSizes"
           }
         }
@@ -291,16 +291,12 @@
     "Fluid": {
       "Font": {
         "80": {
-          "Min": {
-            "value": "13.33 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "14.4 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.80.Min} - 0.023",
+            "value": "0.81",
             "type": "other"
           },
           "VW": {
@@ -309,16 +305,12 @@
           }
         },
         "100": {
-          "Min": {
-            "value": "16 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "18 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.100.Min} - 0.04",
+            "value": "0.96",
             "type": "other"
           },
           "VW": {
@@ -327,16 +319,12 @@
           }
         },
         "125": {
-          "Min": {
-            "value": "19.2 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "22.5 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.125.Min} - 0.07",
+            "value": "1.13",
             "type": "other"
           },
           "VW": {
@@ -345,16 +333,12 @@
           }
         },
         "150": {
-          "Min": {
-            "value": "23.04 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "28.13 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.150.Min} - 0.11",
+            "value": "1.33",
             "type": "other"
           },
           "VW": {
@@ -363,16 +347,12 @@
           }
         },
         "200": {
-          "Min": {
-            "value": "27.65 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "35.16 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.200.Min} - 0.168",
+            "value": "1.56",
             "type": "other"
           },
           "VW": {
@@ -381,16 +361,12 @@
           }
         },
         "250": {
-          "Min": {
-            "value": "33.18 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "43.95 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.250.Min} - 0.234",
+            "value": "1.84",
             "type": "other"
           },
           "VW": {
@@ -399,16 +375,12 @@
           }
         },
         "300": {
-          "Min": {
-            "value": "39.81 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "54.93 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.300.Min} - 0.328",
+            "value": "2.16",
             "type": "other"
           },
           "VW": {
@@ -417,16 +389,12 @@
           }
         },
         "375": {
-          "Min": {
-            "value": "47.78 / {Font.Size.Base}",
-            "type": "other"
-          },
           "Max": {
             "value": "68.66 / {Font.Size.Base}",
             "type": "other"
           },
           "Clamp": {
-            "value": "{Fluid.Font.375.Min} - 0.456",
+            "value": "2.53",
             "type": "other"
           },
           "VW": {
