@@ -6,95 +6,109 @@
         "type": "spacing",
         "description": "A zero-value spacing unit."
       },
-      "Base": {
-        "value": "8",
-        "type": "spacing",
-        "description": "The base spacing value for the Moaxe Design System."
-      },
-      "Static": {
-        "25": {
+      "25": {
+        "Static": {
           "value": "{Space.Base} * 0.25",
-          "type": "spacing",
-          "description": "A spacing unit that is a quarter (0.25%) of the base unit."
+          "type": "spacing"
         },
-        "50": {
+        "Fluid": {
+          "value": "{Space.Base} * 0.25 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "50": {
+        "Static": {
           "value": "{Space.Base} * 0.5",
           "type": "spacing",
           "description": "A spacing value that is half (0.5%) of the base unit."
         },
-        "100": {
+        "Fluid": {
+          "value": "{Space.Base} * 0.5 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "100": {
+        "Static": {
           "value": "{Space.Base} * 1",
           "type": "spacing",
           "description": "A spacing value that is 100% of the base unit."
         },
-        "150": {
+        "Fluid": {
+          "value": "{Space.Base} * 1 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "150": {
+        "Static": {
           "value": "{Space.Base} * 1.5",
           "type": "spacing",
           "description": "A spacing value that is 150% of the base unit."
         },
-        "200": {
+        "Fluid": {
+          "value": "{Space.Base} * 1.5 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "200": {
+        "Static": {
           "value": "{Space.Base} * 2",
           "type": "spacing",
           "description": "A spacing value that is 200% of the base unit."
         },
-        "300": {
+        "Fluid": {
+          "value": "{Space.Base} * 2 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "300": {
+        "Static": {
           "value": "{Space.Base} * 3",
           "type": "spacing",
           "description": "A spacing value that is 300% of the base unit."
         },
-        "400": {
+        "Fluid": {
+          "value": "{Space.Base} * 3 / {Font.Size.Base}",
+          "type": "spacing",
+          "description": "A spacing value that is 300% of the base unit."
+        }
+      },
+      "400": {
+        "Static": {
           "value": "{Space.Base} * 4",
           "type": "spacing",
           "description": "A spacing value that is 400% of the base unit."
         },
-        "600": {
+        "Fluid": {
+          "value": "{Space.Base} * 4 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "600": {
+        "Static": {
           "value": "{Space.Base} * 6",
           "type": "spacing",
           "description": "A spacing value that is 600% of the base unit."
         },
-        "800": {
+        "Fluid": {
+          "value": "{Space.Base} * 6 / {Font.Size.Base}",
+          "type": "spacing"
+        }
+      },
+      "800": {
+        "Static": {
           "value": "{Space.Base} * 8",
           "type": "spacing",
           "description": "A spacing value that is 800% of the base unit."
-        }
-      },
-      "Fluid": {
-        "25": {
-          "value": "{Space.Base} * 0.25 / {Font.Size.Base}",
-          "type": "spacing"
         },
-        "50": {
-          "value": "{Space.Base} * 0.5 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "100": {
-          "value": "{Space.Base} * 1 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "150": {
-          "value": "{Space.Base} * 1.5 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "200": {
-          "value": "{Space.Base} * 2 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "300": {
-          "value": "{Space.Base} * 3 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "400": {
-          "value": "{Space.Base} * 4 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "600": {
-          "value": "{Space.Base} * 6 / {Font.Size.Base}",
-          "type": "spacing"
-        },
-        "800": {
+        "Fluid": {
           "value": "{Space.Base} * 8 / {Font.Size.Base}",
           "type": "spacing"
         }
+      },
+      "Base": {
+        "value": "8",
+        "type": "spacing",
+        "description": "The base spacing value for the Moaxe Design System."
       }
     },
     "Radius": {
