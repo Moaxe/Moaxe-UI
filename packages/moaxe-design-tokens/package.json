@@ -1,10 +1,22 @@
 {
     "name": "@moaxe/design-tokens",
+    "description": "The design tokens library of the Moaxe Design System.",
     "version": "0.0.1",
     "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
     "license": "MIT",
     "repository": "git@github.com:Moaxe/Moaxe-UI.git",
-    "scripts": {},
+    "main": "dist/js/index.js",
+    "module": "dist/js/index.js",
+    "typings": "dist/js/index.d.ts",
+    "files": [
+        "moaxe-tokens.css",
+        "_moaxe-tokens.scss"
+    ],
+    "scripts": {
+        "build": "yarn tokens:transform && yarn tokens:build && tsc",
+        "tokens:transform": "token-transformer src/raw.tokens.json dist/moaxe.tokens.json --resolveReferences='math'",
+        "tokens:build": "style-dictionary build --config config.js"
+    },
     "devDependencies": {},
     "keywords": [
         "moaxe",
@@ -12,5 +24,10 @@
         "ui",
         "css",
         "design tokens"
-    ]
+    ],
+    "dependencies": {
+        "style-dictionary": "^3.7.1",
+        "token-transformer": "^0.0.28",
+        "typescript": "*"
+    }
 }
