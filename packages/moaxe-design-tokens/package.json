@@ -5,9 +5,9 @@
     "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
     "license": "MIT",
     "repository": "git@github.com:Moaxe/Moaxe-UI.git",
-    "main": "dist/js/index.js",
-    "module": "dist/js/index.js",
-    "typings": "dist/js/index.d.ts",
+    "main": "dist/js/tokens.js",
+    "module": "dist/js/tokens.js",
+    "typings": "dist/js/tokens.d.ts",
     "files": [
         "moaxe-tokens.css",
         "_moaxe-tokens.scss"
