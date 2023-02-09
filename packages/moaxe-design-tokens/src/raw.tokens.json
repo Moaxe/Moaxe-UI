@@ -289,7 +289,7 @@
       "100": {
         "value": "100%",
         "type": "lineHeights",
-        "description": "A 100% line-height value"
+        "description": "A 100% line-height value."
       },
       "120": {
         "value": "120%",
