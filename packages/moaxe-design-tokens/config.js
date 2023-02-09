@@ -168,7 +168,7 @@ module.exports = {
             buildPath: 'dist/css/',
             files: [
                 {
-                    destination: 'tokens.css',
+                    destination: 'moaxe-tokens.css',
                     format: 'css/variables',
                     filter: (token) => token.type !== 'other',
                 },
@@ -180,7 +180,7 @@ module.exports = {
             buildPath: 'dist/css/',
             files: [
                 {
-                    destination: '_tokens.scss',
+                    destination: '_moaxe-tokens.scss',
                     format: 'scss/variables',
                     filter: (token) => token.type !== 'other',
                 },

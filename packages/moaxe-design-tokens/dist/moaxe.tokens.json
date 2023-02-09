@@ -1,0 +1,561 @@
+{
+  "Space": {
+    "0": {
+      "value": 0,
+      "type": "spacing",
+      "description": "A zero-value spacing unit."
+    },
+    "25": {
+      "Static": {
+        "value": 2,
+        "type": "spacing"
+      },
+      "Fluid": {
+        "value": 0.125,
+        "type": "spacing"
+      }
+    },
+    "50": {
+      "Static": {
+        "value": 4,
+        "type": "spacing",
+        "description": "A spacing value that is half (0.5%) of the base unit."
+      },
+      "Fluid": {
+        "value": 0.25,
+        "type": "spacing"
+      }
+    },
+    "100": {
+      "Static": {
+        "value": 8,
+        "type": "spacing",
+        "description": "A spacing value that is 100% of the base unit."
+      },
+      "Fluid": {
+        "value": 0.5,
+        "type": "spacing"
+      }
+    },
+    "150": {
+      "Static": {
+        "value": 12,
+        "type": "spacing",
+        "description": "A spacing value that is 150% of the base unit."
+      },
+      "Fluid": {
+        "value": 0.75,
+        "type": "spacing"
+      }
+    },
+    "200": {
+      "Static": {
+        "value": 16,
+        "type": "spacing",
+        "description": "A spacing value that is 200% of the base unit."
+      },
+      "Fluid": {
+        "value": 1,
+        "type": "spacing"
+      }
+    },
+    "300": {
+      "Static": {
+        "value": 24,
+        "type": "spacing",
+        "description": "A spacing value that is 300% of the base unit."
+      },
+      "Fluid": {
+        "value": 1.5,
+        "type": "spacing",
+        "description": "A spacing value that is 300% of the base unit."
+      }
+    },
+    "400": {
+      "Static": {
+        "value": 32,
+        "type": "spacing",
+        "description": "A spacing value that is 400% of the base unit."
+      },
+      "Fluid": {
+        "value": 2,
+        "type": "spacing"
+      }
+    },
+    "600": {
+      "Static": {
+        "value": 48,
+        "type": "spacing",
+        "description": "A spacing value that is 600% of the base unit."
+      },
+      "Fluid": {
+        "value": 3,
+        "type": "spacing"
+      }
+    },
+    "800": {
+      "Static": {
+        "value": 64,
+        "type": "spacing",
+        "description": "A spacing value that is 800% of the base unit."
+      },
+      "Fluid": {
+        "value": 4,
+        "type": "spacing"
+      }
+    },
+    "Base": {
+      "value": 8,
+      "type": "other"
+    }
+  },
+  "Radius": {
+    "0": {
+      "value": 0,
+      "type": "borderRadius",
+      "description": "A zero-value border-radius for sharp edges."
+    },
+    "50": {
+      "value": 2,
+      "type": "borderRadius",
+      "description": "A border-radius value that is 50% of the base unit."
+    },
+    "100": {
+      "value": 4,
+      "type": "borderRadius",
+      "description": "A border-radius value that is 100% of the base unit."
+    },
+    "200": {
+      "value": 8,
+      "type": "borderRadius",
+      "description": "A border-radius value that is 200% of the base unit."
+    },
+    "Pill": {
+      "value": 999,
+      "type": "borderRadius",
+      "description": "A high-value border-radius for creating pill-shaped elements."
+    },
+    "Circle": {
+      "value": "50%",
+      "type": "borderRadius",
+      "description": "A 50% border-radius for creating circular elements."
+    }
+  },
+  "Font": {
+    "Weight": {
+      "Thin": {
+        "value": 100,
+        "type": "fontWeights",
+        "description": "A 100-value font weight."
+      },
+      "Light-Extra": {
+        "value": 200,
+        "type": "fontWeights",
+        "description": "A 200-value font weight."
+      },
+      "Light": {
+        "value": 300,
+        "type": "fontWeights",
+        "description": "A 300-value font weight."
+      },
+      "Regular": {
+        "value": 400,
+        "type": "fontWeights",
+        "description": "A 400-value font weight."
+      },
+      "Medium": {
+        "value": 500,
+        "type": "fontWeights",
+        "description": "A 500-value font weight."
+      },
+      "Bold-Semi": {
+        "value": 600,
+        "type": "fontWeights",
+        "description": "A 600-value font weight."
+      },
+      "Bold": {
+        "value": 700,
+        "type": "fontWeights",
+        "description": "A 700-value font weight."
+      },
+      "Bold-Extra": {
+        "value": 800,
+        "type": "fontWeights",
+        "description": "A 800-value font weight."
+      },
+      "Heavy": {
+        "value": 900,
+        "type": "fontWeights",
+        "description": "A 900-value font weight."
+      }
+    },
+    "Size": {
+      "80": {
+        "Static": {
+          "value": 12.8,
+          "type": "fontSizes",
+          "description": "A static font size, 80% of the base unit."
+        },
+        "Fluid": {
+          "value": 12.8,
+          "type": "fontSizes"
+        }
+      },
+      "100": {
+        "Static": {
+          "value": 16,
+          "type": "fontSizes",
+          "description": "A static font size, 100% of the base unit."
+        },
+        "Fluid": {
+          "value": 16,
+          "type": "fontSizes"
+        }
+      },
+      "125": {
+        "Static": {
+          "value": 20,
+          "type": "fontSizes",
+          "description": "A static font size, 125% of the base unit."
+        },
+        "Fluid": {
+          "value": 20,
+          "type": "fontSizes"
+        }
+      },
+      "150": {
+        "Static": {
+          "value": 24,
+          "type": "fontSizes",
+          "description": "A static font size, 150% of the base unit."
+        },
+        "Fluid": {
+          "value": 24,
+          "type": "fontSizes"
+        }
+      },
+      "200": {
+        "Static": {
+          "value": 32,
+          "type": "fontSizes",
+          "description": "A static font size, 200% of the base unit."
+        },
+        "Fluid": {
+          "value": 32,
+          "type": "fontSizes"
+        }
+      },
+      "250": {
+        "Static": {
+          "value": 40,
+          "type": "fontSizes",
+          "description": "A static font size, 250% of the base unit."
+        },
+        "Fluid": {
+          "value": 40,
+          "type": "fontSizes"
+        }
+      },
+      "300": {
+        "Static": {
+          "value": 48,
+          "type": "fontSizes",
+          "description": "A static font size, 300% of the base unit."
+        },
+        "Fluid": {
+          "value": 48,
+          "type": "fontSizes"
+        }
+      },
+      "375": {
+        "Static": {
+          "value": 60,
+          "type": "fontSizes",
+          "description": "A static font size, 375% of the base unit."
+        },
+        "Fluid": {
+          "value": 60,
+          "type": "fontSizes"
+        }
+      },
+      "Base": {
+        "value": 16,
+        "type": "other"
+      }
+    }
+  },
+  "LineHeight": {
+    "100": {
+      "value": "100%",
+      "type": "lineHeights",
+      "description": "A 100% line-height value."
+    },
+    "120": {
+      "value": "120%",
+      "type": "lineHeights",
+      "description": "A 120% line-height value."
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights",
+      "description": "A 150% line-height value."
+    },
+    "200": {
+      "value": "200%",
+      "type": "lineHeights",
+      "description": "A 200% line-height value."
+    }
+  },
+  "Fluid": {
+    "Font": {
+      "Size": {
+        "80": {
+          "Max": {
+            "value": 0.9,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 0.81,
+            "type": "other"
+          },
+          "VW": {
+            "value": 0.12,
+            "type": "other"
+          }
+        },
+        "100": {
+          "Max": {
+            "value": 1.125,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 0.96,
+            "type": "other"
+          },
+          "VW": {
+            "value": 0.22,
+            "type": "other"
+          }
+        },
+        "125": {
+          "Max": {
+            "value": 1.406,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 1.13,
+            "type": "other"
+          },
+          "VW": {
+            "value": 0.36,
+            "type": "other"
+          }
+        },
+        "150": {
+          "Max": {
+            "value": 1.758,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 1.33,
+            "type": "other"
+          },
+          "VW": {
+            "value": 0.55,
+            "type": "other"
+          }
+        },
+        "200": {
+          "Max": {
+            "value": 2.197,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 1.56,
+            "type": "other"
+          },
+          "VW": {
+            "value": 0.82,
+            "type": "other"
+          }
+        },
+        "250": {
+          "Max": {
+            "value": 2.747,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 1.84,
+            "type": "other"
+          },
+          "VW": {
+            "value": 1.17,
+            "type": "other"
+          }
+        },
+        "300": {
+          "Max": {
+            "value": 3.433,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 2.16,
+            "type": "other"
+          },
+          "VW": {
+            "value": 1.64,
+            "type": "other"
+          }
+        },
+        "375": {
+          "Max": {
+            "value": 4.291,
+            "type": "other"
+          },
+          "Clamp": {
+            "value": 2.53,
+            "type": "other"
+          },
+          "VW": {
+            "value": 2.27,
+            "type": "other"
+          }
+        }
+      }
+    },
+    "Space": {
+      "25": {
+        "Max": {
+          "value": 0.188,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 0.1,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.11,
+          "type": "other"
+        }
+      },
+      "50": {
+        "Max": {
+          "value": 0.313,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 0.23,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.11,
+          "type": "other"
+        }
+      },
+      "100": {
+        "Max": {
+          "value": 0.625,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 0.46,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.22,
+          "type": "other"
+        }
+      },
+      "150": {
+        "Max": {
+          "value": 0.938,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 0.68,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.33,
+          "type": "other"
+        }
+      },
+      "200": {
+        "Max": {
+          "value": 1.25,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 0.91,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.43,
+          "type": "other"
+        }
+      },
+      "300": {
+        "Max": {
+          "value": 1.875,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 1.37,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.65,
+          "type": "other"
+        }
+      },
+      "400": {
+        "Max": {
+          "value": 2.5,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 1.83,
+          "type": "other"
+        },
+        "VW": {
+          "value": 0.87,
+          "type": "other"
+        }
+      },
+      "600": {
+        "Max": {
+          "value": 3.75,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 2.74,
+          "type": "other"
+        },
+        "VW": {
+          "value": 1.3,
+          "type": "other"
+        }
+      },
+      "800": {
+        "Max": {
+          "value": 5,
+          "type": "other"
+        },
+        "Clamp": {
+          "value": 3.65,
+          "type": "other"
+        },
+        "VW": {
+          "value": 1.74,
+          "type": "other"
+        }
+      }
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
+  }
+}

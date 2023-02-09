@@ -5,15 +5,11 @@
     "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
     "license": "MIT",
     "repository": "git@github.com:Moaxe/Moaxe-UI.git",
-    "main": "dist/js/index.js",
-    "module": "dist/js/index.js",
-    "typings": "dist/js/index.d.ts",
     "files": [
-        "moaxe-tokens.css",
-        "_moaxe-tokens.scss"
+        "dist"
     ],
     "scripts": {
-        "build": "yarn tokens:transform && yarn tokens:build && tsc",
+        "build": "yarn tokens:transform && yarn tokens:build",
         "tokens:transform": "token-transformer src/raw.tokens.json dist/moaxe.tokens.json --resolveReferences='math'",
         "tokens:build": "style-dictionary build --config config.js"
     },
