@@ -5,101 +5,87 @@
       "type": "spacing",
       "description": "A zero-value spacing unit."
     },
-    "25": {
-      "Static": {
+    "Static": {
+      "25": {
         "value": 2,
         "type": "spacing"
       },
-      "Fluid": {
-        "value": 0.125,
-        "type": "spacing"
-      }
-    },
-    "50": {
-      "Static": {
+      "50": {
         "value": 4,
         "type": "spacing",
         "description": "A spacing value that is half (0.5%) of the base unit."
       },
-      "Fluid": {
-        "value": 0.25,
-        "type": "spacing"
-      }
-    },
-    "100": {
-      "Static": {
+      "100": {
         "value": 8,
         "type": "spacing",
         "description": "A spacing value that is 100% of the base unit."
       },
-      "Fluid": {
-        "value": 0.5,
-        "type": "spacing"
-      }
-    },
-    "150": {
-      "Static": {
+      "150": {
         "value": 12,
         "type": "spacing",
         "description": "A spacing value that is 150% of the base unit."
       },
-      "Fluid": {
-        "value": 0.75,
-        "type": "spacing"
-      }
-    },
-    "200": {
-      "Static": {
+      "200": {
         "value": 16,
         "type": "spacing",
         "description": "A spacing value that is 200% of the base unit."
       },
-      "Fluid": {
-        "value": 1,
-        "type": "spacing"
-      }
-    },
-    "300": {
-      "Static": {
+      "300": {
         "value": 24,
         "type": "spacing",
         "description": "A spacing value that is 300% of the base unit."
       },
-      "Fluid": {
-        "value": 1.5,
-        "type": "spacing",
-        "description": "A spacing value that is 300% of the base unit."
-      }
-    },
-    "400": {
-      "Static": {
+      "400": {
         "value": 32,
         "type": "spacing",
         "description": "A spacing value that is 400% of the base unit."
       },
-      "Fluid": {
-        "value": 2,
-        "type": "spacing"
-      }
-    },
-    "600": {
-      "Static": {
+      "600": {
         "value": 48,
         "type": "spacing",
         "description": "A spacing value that is 600% of the base unit."
       },
-      "Fluid": {
-        "value": 3,
-        "type": "spacing"
-      }
-    },
-    "800": {
-      "Static": {
+      "800": {
         "value": 64,
         "type": "spacing",
         "description": "A spacing value that is 800% of the base unit."
+      }
+    },
+    "Fluid": {
+      "25": {
+        "value": 0.125,
+        "type": "spacing"
       },
-      "Fluid": {
+      "50": {
+        "value": 0.25,
+        "type": "spacing"
+      },
+      "100": {
+        "value": 0.5,
+        "type": "spacing"
+      },
+      "150": {
+        "value": 0.75,
+        "type": "spacing"
+      },
+      "200": {
+        "value": 1,
+        "type": "spacing"
+      },
+      "300": {
+        "value": 1.5,
+        "type": "spacing",
+        "description": "A spacing value that is 300% of the base unit."
+      },
+      "400": {
+        "value": 2,
+        "type": "spacing"
+      },
+      "600": {
+        "value": 3,
+        "type": "spacing"
+      },
+      "800": {
         "value": 4,
         "type": "spacing"
       }
@@ -190,90 +176,78 @@
       }
     },
     "Size": {
-      "80": {
-        "Static": {
+      "Static": {
+        "80": {
           "value": 12.8,
           "type": "fontSizes",
           "description": "A static font size, 80% of the base unit."
         },
-        "Fluid": {
-          "value": 12.8,
-          "type": "fontSizes"
-        }
-      },
-      "100": {
-        "Static": {
+        "100": {
           "value": 16,
           "type": "fontSizes",
           "description": "A static font size, 100% of the base unit."
         },
-        "Fluid": {
-          "value": 16,
-          "type": "fontSizes"
-        }
-      },
-      "125": {
-        "Static": {
+        "125": {
           "value": 20,
           "type": "fontSizes",
           "description": "A static font size, 125% of the base unit."
         },
-        "Fluid": {
-          "value": 20,
-          "type": "fontSizes"
-        }
-      },
-      "150": {
-        "Static": {
+        "150": {
           "value": 24,
           "type": "fontSizes",
           "description": "A static font size, 150% of the base unit."
         },
-        "Fluid": {
-          "value": 24,
-          "type": "fontSizes"
-        }
-      },
-      "200": {
-        "Static": {
+        "200": {
           "value": 32,
           "type": "fontSizes",
           "description": "A static font size, 200% of the base unit."
         },
-        "Fluid": {
-          "value": 32,
-          "type": "fontSizes"
-        }
-      },
-      "250": {
-        "Static": {
+        "250": {
           "value": 40,
           "type": "fontSizes",
           "description": "A static font size, 250% of the base unit."
         },
-        "Fluid": {
-          "value": 40,
-          "type": "fontSizes"
-        }
-      },
-      "300": {
-        "Static": {
+        "300": {
           "value": 48,
           "type": "fontSizes",
           "description": "A static font size, 300% of the base unit."
         },
-        "Fluid": {
-          "value": 48,
-          "type": "fontSizes"
-        }
-      },
-      "375": {
-        "Static": {
+        "375": {
           "value": 60,
           "type": "fontSizes",
           "description": "A static font size, 375% of the base unit."
+        }
+      },
+      "Fluid": {
+        "80": {
+          "value": 12.8,
+          "type": "fontSizes"
         },
-        "Fluid": {
+        "100": {
+          "value": 16,
+          "type": "fontSizes"
+        },
+        "125": {
+          "value": 20,
+          "type": "fontSizes"
+        },
+        "150": {
+          "value": 24,
+          "type": "fontSizes"
+        },
+        "200": {
+          "value": 32,
+          "type": "fontSizes"
+        },
+        "250": {
+          "value": 40,
+          "type": "fontSizes"
+        },
+        "300": {
+          "value": 48,
+          "type": "fontSizes"
+        },
+        "375": {
           "value": 60,
           "type": "fontSizes"
         }

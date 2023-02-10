@@ -29,3 +29,8 @@ export function forwardRefWithAs<Props, DefaultType extends As>(
 export type WithTestId = {
     dataTestId?: string;
 };
+
+export type WithUnsafeProps = {
+    UNSAFE_className?: string;
+    UNSAFE_style?: React.CSSProperties;
+};

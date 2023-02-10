@@ -4,6 +4,67 @@ let baseFontSize;
 const fluidFontValues = {};
 const fluidSpaceValues = {};
 
+// Convert pascalCase strings to kebab-case
+const pascalToKebab = (str) => {
+    if (typeof str === 'string') {
+        return str
+            .replace(/([a-z])([A-Z])/g, '$1-$2')
+            .replace(/\s+/g, '-')
+            .toLowerCase();
+    }
+};
+
+/*
+  Utility function used to flatten an object's keys
+  into dot notation strings and assign the relevant
+  CSS variable reference as the value.
+*/
+const flatten = ({ obj = {}, res = {} }) => {
+    Object.entries(obj).forEach(([key, value]) => {
+        /*
+            If the value object has a 'path' key, it's a low-level raw token.
+            Otherwise, the value is a higher-level, parent object
+        */
+        if (value.path) {
+            /*
+                Remove the first part of the path, to prevent duplicating the theme category
+                ❌ space: { 'space.base': ... }
+                ✅ space: { 'base': ... }
+            */
+            const [category, ...tokenPath] = value.path;
+
+            // Filter out empty strings and/or 'static' labels from Figma Tokens
+            const cleanPath = tokenPath
+                .filter(Boolean)
+                .filter((p) => p !== 'Static');
+            const cssCategory = pascalToKebab(category);
+            const cssProperty = pascalToKebab(cleanPath.join('-'));
+
+            if (cleanPath.length === 3) {
+                res[cleanPath[0].toLowerCase()][cleanPath[1].toLowerCase()] = {
+                    ...res[cleanPath[0].toLowerCase()][
+                        cleanPath[1].toLowerCase()
+                    ],
+                    [cleanPath[2].toLowerCase()]: `var(--mx-${cssCategory}-${cssProperty})`,
+                };
+            } else if (cleanPath.length === 2) {
+                res[cleanPath[0].toLowerCase()] = {
+                    ...res[cleanPath[0].toLowerCase()],
+                    [cleanPath[1].toLowerCase()]: `var(--mx-${cssCategory}-${cssProperty})`,
+                };
+            } else {
+                res[
+                    cleanPath[0].toLowerCase()
+                ] = `var(--mx-${cssCategory}-${cssProperty})`;
+            }
+        } else {
+            flatten({ obj: value, res });
+        }
+    });
+
+    return res;
+};
+
 /*
   Tokens provide two types of spacing values, static and fluid.
   Based on the token type, return a static size in pixels
@@ -14,8 +75,8 @@ StyleDictionary.registerTransform({
     type: 'value',
     matcher: (token) => token.type === 'spacing',
     transformer: (token) => {
-        if (token.attributes.item === 'Fluid') {
-            const size = token.path[token.path.length - 2];
+        if (token.attributes.type === 'Fluid') {
+            const size = token.path[token.path.length - 1];
             const data = fluidSpaceValues[size];
 
             return `clamp(${token.value}rem, calc(${data.clamp}rem + ${data.vw}vw), ${data.max}rem)`;
@@ -36,7 +97,7 @@ StyleDictionary.registerTransform({
     matcher: (token) => token.type === 'fontSizes',
     transformer: (token) => {
         if (token.name.toLowerCase().includes('fluid')) {
-            const size = token.path[token.path.length - 2];
+            const size = token.path[token.path.length - 1];
             const data = fluidFontValues[size];
             return `clamp(${token.value / baseFontSize}rem, calc(${
                 data.clamp
@@ -108,7 +169,8 @@ StyleDictionary.registerTransform({
     type: 'value',
     matcher: (token) => token.type === 'other',
     transformer: (token) => {
-        if (token.path.includes('Base') && token.path.includes('Font')) {
+        console.log({ path: token.path });
+        if (token.path.includes('Base') && token.path.includes('font')) {
             baseFontSize = token.value;
         } else {
             const base = token.path.includes('Space')
@@ -138,6 +200,7 @@ const moaxeTransforms = [
     'custom/font/size/value',
 ];
 const styleTransforms = ['attribute/cti', 'name/cti/kebab', ...moaxeTransforms];
+const jsTransforms = ['attribute/cti', 'name/cti/camel', ...moaxeTransforms];
 
 StyleDictionary.registerTransformGroup({
     name: 'fluid/data',
@@ -147,9 +210,32 @@ StyleDictionary.registerTransformGroup({
     name: 'css/scss',
     transforms: styleTransforms,
 });
+StyleDictionary.registerTransformGroup({
+    name: 'js/ts',
+    transforms: jsTransforms,
+});
 
 module.exports = {
     source: ['dist/moaxe.tokens.json'],
+    format: {
+        'theme-js': function ({ dictionary, file }) {
+            const { fileHeader } = StyleDictionary.formatHelpers;
+            const categories = Object.keys(dictionary.tokens);
+            const theme = {};
+
+            categories.forEach((cat) => {
+                if (theme[cat]) return;
+                theme[cat] = flatten({ obj: dictionary.tokens[cat] });
+            });
+
+            return (
+                fileHeader({ file }) +
+                'export * from "./tokens";' +
+                '\n\n' +
+                `export const theme = ${JSON.stringify(theme, null, 2)};`
+            );
+        },
+    },
     platforms: {
         less: {
             transformGroup: 'fluid/data',
@@ -182,6 +268,29 @@ module.exports = {
                 {
                     destination: '_moaxe-tokens.scss',
                     format: 'scss/variables',
+                    filter: (token) => token.type !== 'other',
+                },
+            ],
+        },
+        js: {
+            transformGroup: 'js/ts',
+            prefix: 'mx',
+            buildPath: 'dist/js/',
+            files: [
+                {
+                    destination: 'tokens.js',
+                    format: 'javascript/es6',
+                    filter: (token) => token.type !== 'other',
+                },
+            ],
+        },
+        theme: {
+            transformGroup: 'js/ts',
+            buildPath: 'dist/js/',
+            files: [
+                {
+                    destination: 'index.js',
+                    format: 'theme-js',
                     filter: (token) => token.type !== 'other',
                 },
             ],

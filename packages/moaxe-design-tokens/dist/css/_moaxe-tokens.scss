@@ -1,26 +1,26 @@
 
 // Do not edit directly
-// Generated on Thu, 09 Feb 2023 15:43:26 GMT
+// Generated on Fri, 10 Feb 2023 08:21:48 GMT
 
 $mx-space-0: 0;
 $mx-space-25: 2px;
-$mx-space-25-fluid: clamp(0.125rem, calc(0.1rem + 0.11vw), 0.188rem);
 $mx-space-50: 4px;
-$mx-space-50-fluid: clamp(0.25rem, calc(0.23rem + 0.11vw), 0.313rem);
 $mx-space-100: 8px;
-$mx-space-100-fluid: clamp(0.5rem, calc(0.46rem + 0.22vw), 0.625rem);
 $mx-space-150: 12px;
-$mx-space-150-fluid: clamp(0.75rem, calc(0.68rem + 0.33vw), 0.938rem);
 $mx-space-200: 16px;
-$mx-space-200-fluid: clamp(1rem, calc(0.91rem + 0.43vw), 1.25rem);
 $mx-space-300: 24px;
-$mx-space-300-fluid: clamp(1.5rem, calc(1.37rem + 0.65vw), 1.875rem);
 $mx-space-400: 32px;
-$mx-space-400-fluid: clamp(2rem, calc(1.83rem + 0.87vw), 2.5rem);
 $mx-space-600: 48px;
-$mx-space-600-fluid: clamp(3rem, calc(2.74rem + 1.3vw), 3.75rem);
 $mx-space-800: 64px;
-$mx-space-800-fluid: clamp(4rem, calc(3.65rem + 1.74vw), 5rem);
+$mx-space-fluid-25: clamp(0.125rem, calc(0.1rem + 0.11vw), 0.188rem);
+$mx-space-fluid-50: clamp(0.25rem, calc(0.23rem + 0.11vw), 0.313rem);
+$mx-space-fluid-100: clamp(0.5rem, calc(0.46rem + 0.22vw), 0.625rem);
+$mx-space-fluid-150: clamp(0.75rem, calc(0.68rem + 0.33vw), 0.938rem);
+$mx-space-fluid-200: clamp(1rem, calc(0.91rem + 0.43vw), 1.25rem);
+$mx-space-fluid-300: clamp(1.5rem, calc(1.37rem + 0.65vw), 1.875rem);
+$mx-space-fluid-400: clamp(2rem, calc(1.83rem + 0.87vw), 2.5rem);
+$mx-space-fluid-600: clamp(3rem, calc(2.74rem + 1.3vw), 3.75rem);
+$mx-space-fluid-800: clamp(4rem, calc(3.65rem + 1.74vw), 5rem);
 $mx-radius-0: 0;
 $mx-radius-50: 2px;
 $mx-radius-100: 4px;
@@ -37,21 +37,21 @@ $mx-font-weight-bold: 700;
 $mx-font-weight-bold-extra: 800;
 $mx-font-weight-heavy: 900;
 $mx-font-size-80: 0.8rem;
-$mx-font-size-80-fluid: clamp(0.8rem, calc(0.81rem + 0.12vw), 0.9rem);
 $mx-font-size-100: 1rem;
-$mx-font-size-100-fluid: clamp(1rem, calc(0.96rem + 0.22vw), 1.125rem);
 $mx-font-size-125: 1.25rem;
-$mx-font-size-125-fluid: clamp(1.25rem, calc(1.13rem + 0.36vw), 1.406rem);
 $mx-font-size-150: 1.5rem;
-$mx-font-size-150-fluid: clamp(1.5rem, calc(1.33rem + 0.55vw), 1.758rem);
 $mx-font-size-200: 2rem;
-$mx-font-size-200-fluid: clamp(2rem, calc(1.56rem + 0.82vw), 2.197rem);
 $mx-font-size-250: 2.5rem;
-$mx-font-size-250-fluid: clamp(2.5rem, calc(1.84rem + 1.17vw), 2.747rem);
 $mx-font-size-300: 3rem;
-$mx-font-size-300-fluid: clamp(3rem, calc(2.16rem + 1.64vw), 3.433rem);
 $mx-font-size-375: 3.75rem;
-$mx-font-size-375-fluid: clamp(3.75rem, calc(2.53rem + 2.27vw), 4.291rem);
+$mx-font-size-fluid-80: clamp(0.8rem, calc(0.81rem + 0.12vw), 0.9rem);
+$mx-font-size-fluid-100: clamp(1rem, calc(0.96rem + 0.22vw), 1.125rem);
+$mx-font-size-fluid-125: clamp(1.25rem, calc(1.13rem + 0.36vw), 1.406rem);
+$mx-font-size-fluid-150: clamp(1.5rem, calc(1.33rem + 0.55vw), 1.758rem);
+$mx-font-size-fluid-200: clamp(2rem, calc(1.56rem + 0.82vw), 2.197rem);
+$mx-font-size-fluid-250: clamp(2.5rem, calc(1.84rem + 1.17vw), 2.747rem);
+$mx-font-size-fluid-300: clamp(3rem, calc(2.16rem + 1.64vw), 3.433rem);
+$mx-font-size-fluid-375: clamp(3.75rem, calc(2.53rem + 2.27vw), 4.291rem);
 $mx-line-height-100: 1;
 $mx-line-height-120: 1.2;
 $mx-line-height-150: 1.5;
