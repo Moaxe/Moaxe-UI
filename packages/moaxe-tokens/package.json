@@ -1,5 +1,5 @@
 {
-    "name": "@moaxe/css",
+    "name": "@moaxe/tokens",
     "version": "0.0.1",
     "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
     "license": "MIT",
@@ -8,8 +8,10 @@
     "devDependencies": {},
     "keywords": [
         "moaxe",
-        "design system",
-        "ui",
-        "css"
+        "ui library",
+        "component library",
+        "react",
+        "accessibility",
+        "typescript"
     ]
 }

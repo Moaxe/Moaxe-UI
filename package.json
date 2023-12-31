@@ -16,27 +16,26 @@
         "prettier": "prettier --check '**/*.{ts,tsx}'",
         "prettier:fix": "yarn prettier --write"
     },
-    "devDependencies": {
-        "@commitlint/cli": "^17.3.0",
-        "@commitlint/config-conventional": "^17.3.0",
-        "eslint": "^8.28.0",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "husky": "^8.0.2",
-        "lint-staged": "^13.0.4",
-        "prettier": "^2.8.0"
-    },
+    "devDependencies": {},
     "keywords": [
         "moaxe",
-        "design system",
         "ui",
         "ui library",
+        "component library",
         "react",
-        "a11y",
         "accessibility",
         "typescript"
     ],
-    "dependencies": {},
+    "dependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.2",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.1.1"
+    },
     "lint-staged": {
         "*.{ts, tsx, json, css}": [
             "yarn lint:fix",
